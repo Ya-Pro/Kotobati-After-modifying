@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="كتوباتي مكتبة الكترونية لتحميل ونشر الكتب الإلكترونية pdf المتوفرة بشكل مجاني على الأنترنت. آلاف الكتب والروايات الإلكترونية بانتظارك مجانا."
+    />
+    <meta
+      name="keywords"
+      content="مكتبة كتوباتي، كتوباتي، كتب، تحميل كتب، كتب إلكترونية، كتب مجانية "
+    />
+    <meta name="author" content="Sharif Tarek Atallah" />
+    <title>كتوباتي...كتبك معك أينما إرتحلت📚🥰☕</title>
+    <!-- css -->
+    <link rel="stylesheet" href="src/css/style.css" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- the assets images -->
+  </head>
+  <body>
+    <header>
+          <ul>
+        <li>
+          <a href="index.html"
+            ><img src="assets/images/logo.png" alt="كتوباتي"
+          loading="eager"/></a>
+        </li>
+        <li class="publish">
+          <a href="publishBook.html">
+            <i class="fa-solid fa-book-open"></i> انشر كتابك</a
+          >
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i> ابحث عن كتاب
+          </button>
+        </li>
+        <li class="user">
+          <a href="login.html" class="btn-1"> دخول</a>
+          <a href="signup.html" class="btn-2"> حساب جديد</a>
+        </li>
+        <i class="fa-solid fa-bars"></i>
+      </ul> 
+      <nav>
+        <a href="index.html"
+          ><i class="fa-solid fa-house"></i>
+          <p>الرئيسية</p>
+        </a>
+        <a href="bestBooks.html"
+          ><i class="fa-solid fa-award"></i>
+          <p>الأفضل</p></a
+        >
+        <a href="categories.html"
+          ><i class="fa-solid fa-rectangle-list"></i>
+          <p>الأقسام</p>
+        </a>
+        <a href="authors.html"
+          ><i class="fa-solid fa-people-group"></i>
+          <p>الكُتاب</p>
+        </a>
+      </nav>
+    </header>
+    <!-- the search section -->
+    <!-- the search section -->
+    <section class="publishing-navigation" style="padding: 1rem">
+      <h3>نشر الكتب الخاصة بك</h3>
+      <h3>الرئيسية /  <span>نشر كتاب</span>  </h3>
+    </section>
+    <!-- the part of the publishing book -->
+    <div class="publishing"> 
+      <section class="publishing-container">
+        <h2>إنشر كتابك الآن </h2>
+        <div class="form">
+          <div class="upload-file">
+            <input  type="file" id="file" />
+            <span class="btn-1"> أرفق صورة الغلاف</span>
+          </div>
+          <form>
+            <input type="text" placeholder="عنوان الكتاب" class="title-book">
+            <input type="text" placeholder="مؤلف الكتاب" class="author-book">
+            <input type="submit" value="نشر الكتاب" class="publish-book">
+          </form>
+        </div>
+      </section>
+    </div>
+    <!-- the spareted parts of the site like search bar and the sidebar  -->
+    <div class="search-bar show-search-bar">
+      <input
+        type="search"
+        name="search"
+        id="search"
+        placeholder=" إبحث عن كتاب أو مؤلف أو قسم كتاب "
+      />
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <button class="btn-1">بحث</button>
+    </div>
+    <!-- the overlay  -->
+    <div class="overlay"></div>
+    <!-- the part of the sidebar -->
+    <div class="sidebar">
+      <i class="fa-solid fa-xmark close"></i>
+      <ul>
+        <li><a href="rights.html">حقوق الملكية</a></li>
+        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+        <li><a href="publish.html">انشر كتبك الملكية</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+      <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+    <!-- the categories file -->
+    <!-- js file -->
+    <script src="src/js/main.js"></script>
+  </body>
+</html
